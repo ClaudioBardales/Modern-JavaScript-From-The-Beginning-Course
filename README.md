@@ -1,2 +1,4 @@
-# Modern-JavaScript-From-The-Beginning-Course
-A JavaScript Course From Brad Traversy. 
+# Modern JavaScript From The Beginning
+A JavaScript Course From Brad Traversy.
+
+
