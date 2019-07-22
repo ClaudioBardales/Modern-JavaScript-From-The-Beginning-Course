@@ -34,7 +34,7 @@ val = numbers.indexOf(36);
 
 // // Add to End
 
-// numbers.push(250);
+numbers.push(250);
 
 // // Add to front
 
