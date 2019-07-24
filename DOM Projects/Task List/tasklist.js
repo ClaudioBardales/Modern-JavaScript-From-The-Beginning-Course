@@ -8,6 +8,8 @@ const clearBtn = document.querySelector('.clear-tasks');
 const filter = document.querySelector('#filter');
 const taskInput = document.querySelector('#task');
 
+console.log(taskInput.value);
+
 // Load all event listerners
 
 loadEventListeners(); // Why are we calling the function first? Shouldn't we call the function after we make it?
