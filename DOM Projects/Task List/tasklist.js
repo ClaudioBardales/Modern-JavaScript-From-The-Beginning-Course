@@ -12,7 +12,7 @@ console.log(taskInput.value);
 
 // Load all event listerners
 
-loadEventListeners(); // Why are we calling the function first? Shouldn't we call the function after we make it?
+loadEventListeners();
 
 // Load all event listners
 
@@ -181,3 +181,9 @@ function filterTasks(event) {
         }
     })
 }
+
+// Why are we calling the function first? Shouldn't we call the function after we make it?
+
+// Because in javascript there is this feature called hoisting. Which means that you can call the function anywhere in the script.
+
+// Why do we need a single function to run all of the event listeners?
