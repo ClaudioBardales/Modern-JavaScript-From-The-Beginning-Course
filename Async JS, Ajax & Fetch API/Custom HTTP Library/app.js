@@ -1,13 +1,13 @@
 const http = new EasyHTTP;
 
 
-Get Users
+//Get Users
 
 http.get('https://jsonplaceholder.typicode.com/users')
     .then(data => console.log(data))
     .catch(err => console.log(err));
 
-User Data
+//User Data
 
 const data = {
     name: 'John Doe',
@@ -15,7 +15,7 @@ const data = {
     email: 'jdoe@gmail.com'
 }
 
-POST USER
+//POST USER
 
 
 http.post('https://jsonplaceholder.typicode.com/users')
@@ -23,7 +23,7 @@ http.post('https://jsonplaceholder.typicode.com/users')
     .catch(err => console.log(err));
 
 
-UPDATE USER
+//UPDATE USER
 
 
 
